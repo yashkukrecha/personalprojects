@@ -20,7 +20,7 @@ import warnings
 
 from components.sidebar import sidebar
 from components.uploadData import dataTab
-from components.medical_bill_fraud_detection import ML, preprocessing, removeComma
+from components.processing_data import preprocessing, removeComma
 
 ae = joblib.load("components/model_filename.pkl")
 y_scores = pd.Series(ae.decision_scores_)
