@@ -13,7 +13,7 @@ def scanInvoice(input_img, arr):
     raw_total = "0"
     prov_first = ""
     prov_last = ""
-    img = cv2.imread(input_img)
+    img = cv2.imread(arr)
     d = pytesseract.image_to_data(input_img, output_type=Output.DICT)
     print(type(d))
     print('d type')
@@ -50,7 +50,7 @@ def scanInvoice(input_img, arr):
     cv2.waitKey(0)
     
 
-    return "HIROHIKO", "ITO", 7000.00, True, 7.00
+    return prov_first, prov_last, total, has_medicare, medicare_payment
 
 
 def dataTab():
@@ -95,7 +95,7 @@ def dataTab():
             with right:    
                 if st.button("Scan"):
                     buttonState = True
-                    provider_firstI, provider_lastI, submitted_chargeI, has_medI, med_paymentI = scanInvoice(img, 'components/canva_1.png')
+                    provider_firstI, provider_lastI, submitted_chargeI, has_medI, med_paymentI = scanInvoice(img, 'Medical_Invoice.png')
                     uploaded_file = None
 
     with inputTab:
