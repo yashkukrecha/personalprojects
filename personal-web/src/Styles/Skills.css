@@ -1,0 +1,39 @@
+#skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#languages {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+#oracle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: color .35s ease;
+}
+
+#oracle:hover {
+    color: orange;
+}
+
+.o-icon {
+    width: 30%;
+    height: 30%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+

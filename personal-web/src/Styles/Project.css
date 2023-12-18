@@ -1,0 +1,27 @@
+#project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 20%;
+    margin: 1%;
+}
+
+.project-icon {
+    margin-top: 2%;
+    width: 75%;
+    height: 150px;
+    padding: 0px;
+}
+
+#project-title{
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+#project-desc {
+    text-align: center;
+    width: 90%;
+}

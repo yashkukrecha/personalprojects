@@ -1,0 +1,27 @@
+* {
+  font-family: "Georgia";
+  background-color: rgb(255, 255, 255);
+}
+
+body {
+  color: black;
+  display: flex;
+}
+
+#root {
+  width: 100%;
+}
+
+.titles {
+  font-size: 150%;
+  border: 3px solid goldenrod;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);   
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.unbold {
+  font-weight: normal;
+}

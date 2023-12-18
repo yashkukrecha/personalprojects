@@ -1,0 +1,12 @@
+#contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75%;
+}
