@@ -1,0 +1,22 @@
+#project-container {
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    width: 20%;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 0.5%;
+}
+
+#project-title{
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+#project-icon {
+    margin-top: 2%;
+    width: 75%;
+    height: 150px;
+    padding: 0px;
+}

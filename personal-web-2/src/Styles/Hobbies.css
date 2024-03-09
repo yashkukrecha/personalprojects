@@ -1,0 +1,15 @@
+#hobby-container {
+    width: 40%;
+}
+
+#hobby-name {
+    margin: 0px;
+}
+
+#image {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+    margin: 10px;
+    padding: 10px;
+}

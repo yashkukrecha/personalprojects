@@ -1,5 +1,6 @@
 import '../Styles/Projects.css';
-import Project from "../Components/Project";
+import '../Styles/App.css';
+import IndividualProject from './IndividualProject';
 
 export default function Projects() {
 
@@ -12,14 +13,12 @@ export default function Projects() {
                 "The Computer Price Estimator estimates the cost of a computer based on given specifications such as RAM, storage, etc. It uses a neural network to do this!"];
     
     return (
-        <div id="all-projects-container">
-            <h2 id="title" className="titles"> 
-                <a id="personal-proj" href="https://github.com/yashkukrecha/personalprojects" target="_blank">
-                    Personal Projects 💻 
-                </a>
+        <div className="column-container" id="grey">
+            <h2 className="titles"> 
+                <a className="tags" href="https://github.com/yashkukrecha/personalprojects" target="_blank"> Personal Projects 🔗 </a>
             </h2>
-            <div id="projects-container"> 
-                {list.map((project, index) => (<Project project={project} desc={desc[index]} />))}
+            <div className="row-container" id="projects"> 
+                {list.map((project, index) => (<IndividualProject project={project} desc={desc[index]} />))}
             </div>
         </div>
     )

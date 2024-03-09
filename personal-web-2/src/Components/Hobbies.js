@@ -1,4 +1,5 @@
 import '../Styles/Hobbies.css';
+import '../Styles/App.css';
 
 export default function Projects() {
 
@@ -10,30 +11,30 @@ export default function Projects() {
     function nextHobby() {
         index = (index + 1) % list.length;
         document.querySelector("#hobby-name").innerText = list[index].hobby;
-        document.querySelector("#desc").innerText = list[index].description;
+        document.querySelector("#hobby-desc").innerText = list[index].description;
         document.querySelector("#image").src = require(`../Icons/${list[index].image}.png`);
     }
 
     function backHobby() {
         index = (index - 1) % list.length;
         document.querySelector("#hobby-name").innerText = list[index].hobby;
-        document.querySelector("#desc").innerText = list[index].description;
+        document.querySelector("#hobby-desc").innerText = list[index].description;
         document.querySelector("#image").src = require(`../Icons/${list[index].image}.png`);
     }
 
     return (
-        <div id="container"> 
+        <div className="column-container"> 
             <h2 className="titles"> Hobbies </h2>
-            <div id="complete-hobby">
-                <div id="hobby">
+            <div className="row-container">
+                <div className="column-container" id="hobby-container">
                     <h3 id="hobby-name"> {list[index].hobby} </h3>
-                    <h4 className="unbold" id="desc"> {list[index].description} </h4>
+                    <h4 className="desc" id="hobby-desc"> {list[index].description} </h4>
                 </div>
-                <img id="image" className="hobby-image" alt="hobby-icon" src={require(`../Icons/${list[index].image}.png`)}></img>
+                <img id="image" alt="hobby-icon" src={require(`../Icons/${list[index].image}.png`)}></img>
             </div>
-            <div id="buttons">
-                <button id="back" onClick={backHobby}> {"<"} back </button>
-                <button id="next" onClick={nextHobby}> next {">"} </button>
+            <div className="row-container">
+                <button className="button" onClick={backHobby}> {"<"} back </button>
+                <button className="button" onClick={nextHobby}> next {">"} </button>
             </div>
         </div>
     )

@@ -1,0 +1,39 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: stretch;
+    gap: 1%;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5%;
+    transition: color 0.4s ease;
+}
+
+nav a:hover {
+    color: #BF5700;
+}
+
+#section1 {
+    padding-top:  3%;
+}
