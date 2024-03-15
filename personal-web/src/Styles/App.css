@@ -125,9 +125,8 @@
   }
 
   .button {
-    width: 70px;
-    height: 45px;
     font-size: 90%;
+    color: black;
   }
 }
 
