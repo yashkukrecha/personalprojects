@@ -6,3 +6,12 @@
 #contact-title {
     margin-bottom: 1%;
 }
+
+@media only screen and (max-width: 600px) {
+    #contact-container {
+        display: flex;
+        flex-direction: column;
+        width: 92vw;
+        justify-content: space-between;
+    }
+}

@@ -13,3 +13,9 @@
 #name:hover {
     color: #BF5700;
 }
+
+@media only screen and (max-width: 600px) {
+    #pfp {
+        width: 20vw;
+    }
+}

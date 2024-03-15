@@ -2,3 +2,13 @@
     align-items: stretch;
     width: 95%;
 }
+
+@media only screen and (max-width: 600px) {
+    #projects {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        width: 95%;
+    }
+}
