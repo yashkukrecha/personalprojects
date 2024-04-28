@@ -1,0 +1,41 @@
+import '../Styles/FullScreenComponent.css';
+import '../Styles/App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
+
+export default function FullScreenComponent(props) {
+    const index = props.index;
+    const pro = props.project.toLowerCase();
+
+    const info = [
+        ["React Native", "Expo Go", "Firebase", "JavaScript", "React Navigation", "Expo Camera/Image Integration"], 
+        ["React", "Firebase", "Express.js", "JavaScript", "Postman"], 
+        ["React", "JavaScript", "Chart.js"], 
+        ["Java"], 
+        ["Streamlit", "Python", "TensorFlow", "Pandas", "NumPy"], 
+        ["Python", "TensorFlow", "Pandas", "NumPy"], 
+        ["Python", "TensorFlow", "Pandas", "NumPy"]];
+    
+    return (
+        <div className="column-container" id="full-screen">
+            <button className="button" id="close-button" onClick={() => props.setTrigger(false)}>
+                <FontAwesomeIcon icon={faXmark} />
+            </button>
+            <h2 className="titles" id="fullscreen-title"> {props.project} </h2>
+            <div className='row-container' id="icon-tech-container">
+                <img id="fullscreen-icon" alt="project-icon" src={require(`../Icons/${pro}.png`)}></img>
+                <div id="list">
+                    <h4 id="tech">Tech Stack:</h4>
+                    <ul id="software" className="desc">
+                        {info[index].map((item, idx) => (
+                            <li style={{textAlign: 'left'}} key={idx}> {item}</li>
+                        ))}
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <h4 id="fullscreen-desc" className="desc"> {props.desc} </h4>
+        </div>
+    );
+}
