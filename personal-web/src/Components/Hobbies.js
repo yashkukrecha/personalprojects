@@ -16,7 +16,7 @@ export default function Projects() {
     }
 
     function backHobby() {
-        index = (index - 1) % list.length;
+        index = (index + 2) % list.length;
         document.querySelector("#hobby-name").innerText = list[index].hobby;
         document.querySelector("#hobby-desc").innerText = list[index].description;
         document.querySelector("#image").src = require(`../Icons/${list[index].image}.png`);

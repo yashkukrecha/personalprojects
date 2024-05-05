@@ -3,10 +3,10 @@
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     background-color: white;
-    width: 25%;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin: 0.25%;
+    width: 18%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 1%;
     cursor: pointer;
 }
 
@@ -17,8 +17,8 @@
 
 #project-icon {
     margin-top: 2%;
-    width: 75%;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     padding: 0px;
 }
 

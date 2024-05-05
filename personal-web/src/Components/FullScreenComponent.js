@@ -12,9 +12,19 @@ export default function FullScreenComponent(props) {
         ["React", "Firebase", "Express.js", "JavaScript", "Postman"], 
         ["React", "JavaScript", "Chart.js"], 
         ["Java"], 
-        ["Streamlit", "Python", "TensorFlow", "Pandas", "NumPy"], 
+        ["Streamlit", "Python", "TensorFlow", "Pandas", "NumPy", "Google Bard API"], 
         ["Python", "TensorFlow", "Pandas", "NumPy"], 
         ["Python", "TensorFlow", "Pandas", "NumPy"]];
+
+    const data = [
+        "January 2024 - April 2024",
+        "December 2023 - January 2024",
+        "December 2023 - Present (Ongoing updates)",
+        "November 2023",
+        "November 2023",
+        "August 2023",
+        "August 2022"
+    ]
     
     return (
         <div className="column-container" id="full-screen">
@@ -22,6 +32,7 @@ export default function FullScreenComponent(props) {
                 <FontAwesomeIcon icon={faXmark} />
             </button>
             <h2 className="titles" id="fullscreen-title"> {props.project} </h2>
+            <text>{data[index]}</text>
             <div className='row-container' id="icon-tech-container">
                 <img id="fullscreen-icon" alt="project-icon" src={require(`../Icons/${pro}.png`)}></img>
                 <div id="list">

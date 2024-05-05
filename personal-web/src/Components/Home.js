@@ -10,7 +10,7 @@ export default function Home() {
                 <h3 className="desc" id="bio"> 
                     Hi, my name is Yash Kukrecha! I'm a freshman at the University of Texas at Austin with an expected graduation date in 2027. 
                     I'm interested in pursuing machine learning and artificial intelligence, but I also enjoy working on various fullstack projects.
-                    Feel free to contact me to chat! I love meeting new people! 
+                    Feel free to contact me to chat!
                 </h3>
             </div>
         </div>

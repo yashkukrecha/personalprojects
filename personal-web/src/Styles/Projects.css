@@ -1,7 +1,7 @@
 #projects {
     align-items: stretch;
     width: 100%;
-    flex-wrap: 'wrap';
+    flex-wrap: wrap;
 }
 
 #click {
