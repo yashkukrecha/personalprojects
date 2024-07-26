@@ -8,6 +8,7 @@ export default function FullScreenComponent(props) {
     const pro = props.project.toLowerCase();
 
     const info = [
+        ["React", "Flask", "SQLAlchemy", "JavaScript", "Scikit Learn", "Pandas", "Seaborn"],
         ["React Native", "Expo Go", "Firebase", "JavaScript", "React Navigation", "Expo Camera/Image Integration"], 
         ["React", "Firebase", "Express.js", "JavaScript", "Postman"], 
         ["React", "JavaScript", "Chart.js"], 
@@ -17,6 +18,7 @@ export default function FullScreenComponent(props) {
         ["Python", "TensorFlow", "Pandas", "NumPy"]];
 
     const data = [
+        "July 2024 - August 2024",
         "January 2024 - April 2024",
         "December 2023 - January 2024",
         "December 2023 - Present (Ongoing updates)",

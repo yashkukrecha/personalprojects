@@ -7,8 +7,9 @@ import {useState, useEffect} from 'react';
 
 export default function Projects() {
 
-    const list = ["Motiv8", "To-Do Application", "Personal Website","Huffman Coding Project","MediGuard","Brain Tumor Classification","Computer Price Estimator"];
-    const desc = ["Motiv8 is a React Native and Expo mobile app created to celebrate users' exercise achievements by capturing moments through pictures and relaying it to friends.",
+    const list = ["Fantasy Basketball Application", "Motiv8", "To-Do Application", "Personal Website","Huffman Coding Project","MediGuard","Brain Tumor Classification","Computer Price Estimator"];
+    const desc = ["This application simulates a 5-stage NBA draft using a K-Means algorithm and then provides predictive analysis of the chosen NBA players in the upcoming season!",
+                "Motiv8 is a React Native and Expo mobile app created to celebrate users' exercise achievements by capturing moments through pictures and relaying it to friends.",
                 "It's what it sounds like! The To-Do Application makes it easy to add, remove, and maintain tasks using a React frontend and Express backend.",
                 "The website you're looking at! Created a project portfolio website using React, combining powerful front-end interactivity and efficient content management.",
                 "The Huffman Coding project uses Java to compress and decompress any file, incorporating complex data structures to save system storage.",
