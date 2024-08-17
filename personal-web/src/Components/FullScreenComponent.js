@@ -8,7 +8,7 @@ export default function FullScreenComponent(props) {
     const pro = props.project.toLowerCase();
 
     const info = [
-        ["React", "Flask", "SQLAlchemy", "JavaScript", "Scikit Learn", "Pandas", "Seaborn"],
+        ["React", "Flask", "SQLAlchemy", "Firebase Storage", "Redis", "JavaScript", "Scikit Learn", "Pandas", "Seaborn"],
         ["React Native", "Expo Go", "Firebase", "JavaScript", "React Navigation", "Expo Camera/Image Integration"], 
         ["React", "Firebase", "Express.js", "JavaScript", "Postman"], 
         ["React", "JavaScript", "Chart.js"], 
@@ -38,10 +38,10 @@ export default function FullScreenComponent(props) {
             <div className='row-container' id="icon-tech-container">
                 <img id="fullscreen-icon" alt="project-icon" src={require(`../Icons/${pro}.png`)}></img>
                 <div id="list">
-                    <h4 id="tech">Tech Stack:</h4>
+                    <h4 id="tech">Tech Stack</h4>
                     <ul id="software" className="desc">
                         {info[index].map((item, idx) => (
-                            <li style={{textAlign: 'left'}} key={idx}> {item}</li>
+                            <li id="bullets" key={idx}> {item}</li>
                         ))}
                     </ul>
                 </div>

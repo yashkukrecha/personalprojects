@@ -10,7 +10,7 @@ export default function Skills() {
         datasets: [
             {
               label: 'Months of Experience',
-              data: [34, 21, 13, 13, 13, 13, 9, 7, 7, 4, 3, 2],
+              data: [35, 22, 14, 14, 14, 14, 9, 7, 7, 4, 4, 2],
               backgroundColor: "#BF5700",
             },
         ],
