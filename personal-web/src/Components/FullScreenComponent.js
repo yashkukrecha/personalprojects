@@ -8,10 +8,10 @@ export default function FullScreenComponent(props) {
     const pro = props.project.toLowerCase();
 
     const info = [
-        ["React", "Flask", "SQLAlchemy", "Firebase Storage", "Redis", "JavaScript", "Scikit Learn", "Pandas", "Seaborn"],
+        ["React.js", "Flask", "SQLAlchemy", "Firebase Storage", "Redis", "JavaScript", "Chart.js", "Scikit Learn", "Pandas", "Seaborn", "Matplotlib"],
         ["React Native", "Expo Go", "Firebase", "JavaScript", "React Navigation", "Expo Camera/Image Integration"], 
-        ["React", "Firebase", "Express.js", "JavaScript", "Postman"], 
-        ["React", "JavaScript", "Chart.js"], 
+        ["React.js", "Firebase", "Express.js", "JavaScript", "Postman"], 
+        ["React.js", "JavaScript", "Chart.js"], 
         ["Java"], 
         ["Streamlit", "Python", "TensorFlow", "Pandas", "NumPy", "Google Bard API"], 
         ["Python", "TensorFlow", "Pandas", "NumPy"], 
