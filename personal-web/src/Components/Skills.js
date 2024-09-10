@@ -6,11 +6,11 @@ import BarChart from "./BarChart";
 export default function Skills() {
 
     const data = {
-        labels: ["Java", "Python", "React", "JavaScript", "HTML", "CSS", "Express.js", "React Native", "C", "SQL", "Flask", "Assembly"],
+        labels: ["Java", "Python", "React", "JavaScript", "HTML", "CSS", "Google Firebase", "Node.js", "Express.js", "C", "React Native", "SQL", "Flask", "C++", "Assembly"],
         datasets: [
             {
               label: 'Months of Experience',
-              data: [35, 22, 14, 14, 14, 14, 9, 7, 7, 4, 4, 2],
+              data: [36, 23, 15, 15, 15, 15, 12, 9, 9, 8, 7, 4, 4, 2, 2],
               backgroundColor: "#BF5700",
             },
         ],
