@@ -7,7 +7,7 @@ export default function Contact() {
     const list = [{method: "Email", link: "ykukrecha@utexas.edu"},
         {method: "LinkedIn", link: "https://www.linkedin.com/in/yash-kukrecha-676a23279/"},
         {method: "Phone", link: "(469) 512-9867"},
-        {method: "GitHub", link: "https://github.com/yashkukrecha/personalprojects"}];
+        {method: "GitHub", link: "https://github.com/yashkukrecha"}];
 
     return (
         <div className="column-container" id="grey"> 

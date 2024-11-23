@@ -8,24 +8,24 @@ export default function FullScreenComponent(props) {
     const pro = props.project.toLowerCase();
 
     const info = [
-        ["React.js", "Flask", "SQLAlchemy", "Firebase Storage", "Redis", "JavaScript", "Chart.js", "Scikit Learn", "Pandas", "Seaborn", "Matplotlib"],
-        ["React Native", "Expo Go", "Firebase", "JavaScript", "React Navigation", "Expo Camera/Image Integration"], 
-        ["React.js", "Firebase", "Express.js", "JavaScript", "Postman"], 
-        ["React.js", "JavaScript", "Chart.js"], 
-        ["Java"], 
-        ["Streamlit", "Python", "TensorFlow", "Pandas", "NumPy", "Google Bard API"], 
-        ["Python", "TensorFlow", "Pandas", "NumPy"], 
+        ["React", "Flask", "SQLAlchemy", "Redis", "GCP", "Chart.js", "Python", "Scikit Learn", "Pandas", "Seaborn", "Matplotlib"],
+        ["React Native", "React Navigation", "Expo", "Svelte", "Flask", "Python", "GCP", "OpenAI API", "Google Maps API"], 
+        ["C", "Assembly"],
+        ["React Native", "React Navigation", "React Native Calendar", "Expo", "Node.js", "GCP"], 
+        ["React", "Node.js", "JSON-to-CSV", "DataTables", "AWS RDS", "PostgreSQL", "Firebase Authentication"],
+        ["React.js", "JavaScript", "Chart.js"],
+        ["Streamlit", "Python", "TensorFlow", "Pandas", "NumPy", "Google Bard API"],
         ["Python", "TensorFlow", "Pandas", "NumPy"]];
 
     const data = [
         "July 2024 - August 2024",
-        "January 2024 - April 2024",
-        "December 2023 - January 2024",
+        "November 2024",
+        "September 2024 - Present",
+        "January 2024 - May 2024",
+        "August 2024 - Present",
         "December 2023 - Present (Ongoing updates)",
         "November 2023",
-        "November 2023",
-        "August 2023",
-        "August 2022"
+        "August 2023"
     ]
     
     return (

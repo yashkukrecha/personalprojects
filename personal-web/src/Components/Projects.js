@@ -7,15 +7,15 @@ import {useState, useEffect} from 'react';
 
 export default function Projects() {
 
-    const list = ["HoopVision", "Motiv8", "To-Do Application", "Personal Website","Huffman Coding Project","MediGuard","Brain Tumor Classification","Computer Price Estimator"];
-    const desc = ["This application simulates a 5-stage NBA draft using a K-Means algorithm and then provides predictive analysis of the chosen NBA players in the upcoming season using an ExtraTreesRegressor model!",
-                "Motiv8 is a React Native and Expo mobile app created to celebrate users' exercise achievements by capturing moments through pictures and relaying it to friends.",
-                "It's what it sounds like! The To-Do Application makes it easy to add, remove, and maintain tasks using a React frontend and Express backend.",
+    const list = ["HoopVision", "BioDex", "PINTOS", "Motiv8", "Seedling Volunteer Portal", "Personal Website", "MediGuard", "Brain Tumor Classification"];
+    const desc = ["HoopVision simulates a 5-stage NBA draft using a K-Means algorithm and then provides predictive analysis of the chosen NBA players in the upcoming season using an ExtraTreesRegressor model!",
+                "With BioDex, step outside, snap photos of local wildlife, and instantly turn them into collectible cards that reveal each animal's unique traits, rarity, and ecological significance.",
+                "PINTOS is an OS that manages concurrency with priority scheduling, system calls, virtual memory, page replacement mechanisms, a multilevel indexed file system, and synchronization.",
+                "Motiv8 is a dynamic gym motivation app created to celebrate users' exercise achievements by capturing moments through pictures and relaying it to friends.",
+                "Seedling's volunteer portal streamlines the mentor volunteer hour logging process with reduced bugs, CSV downloadability and a sleek UI to enhance the user experience.",
                 "The website you're looking at! Created a project portfolio website using React, combining powerful front-end interactivity and efficient content management.",
-                "The Huffman Coding project uses Java to compress and decompress any file, incorporating complex data structures to save system storage.",
                 "MediGuard is a full-stack application built with a Streamlit frontend and machine learning backend to automate medical billing error detection down to 3 simple clicks!",
-                "The Brain Tumor Classifier utilizes a convolutional neural network to detect the presence of a tumor in a brain's MRI scan.",
-                "The Computer Price Estimator estimates the cost of a computer based on given specifications such as RAM, storage, etc. It uses a neural network to do this!"];
+                "The Brain Tumor Classifier utilizes a convolutional neural network to detect the presence of a tumor in a brain's MRI scan."];
     
     const [clicked, setClicked] = useState(false);
     const [index, setIndex] = useState(0);
