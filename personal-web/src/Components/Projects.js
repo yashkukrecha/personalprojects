@@ -7,10 +7,11 @@ import {useState, useEffect} from 'react';
 
 export default function Projects() {
 
-    const list = ["HoopVision", "BioDex", "PINTOS", "Motiv8", "Seedling Volunteer Portal", "Personal Website", "MediGuard", "Brain Tumor Classification"];
+    const list = ["HoopVision", "Stock Trading Platform", "PINTOS", "BioDex", "Motiv8", "Seedling Volunteer Portal", "Personal Website", "MediGuard", "Brain Tumor Classification"];
     const desc = ["HoopVision simulates a 5-stage NBA draft using a K-Means algorithm and then provides predictive analysis of the chosen NBA players in the upcoming season using an ExtraTreesRegressor model!",
-                "With BioDex, step outside, snap photos of local wildlife, and instantly turn them into collectible cards that reveal each animal's unique traits, rarity, and ecological significance.",
+                "A multithreaded, socket-based stock trading platform that models real-time stock updates, order management, and client-server communication.",
                 "PINTOS is an OS that manages concurrency with priority scheduling, system calls, virtual memory, page replacement mechanisms, a multilevel indexed file system, and synchronization.",
+                "With BioDex, step outside, snap photos of local wildlife, and instantly turn them into collectible cards that reveal each animal's unique traits, rarity, and ecological significance.",
                 "Motiv8 is a dynamic gym motivation app created to celebrate users' exercise achievements by capturing moments through pictures and relaying it to friends.",
                 "Seedling's volunteer portal streamlines the mentor volunteer hour logging process with reduced bugs, CSV downloadability and a sleek UI to enhance the user experience.",
                 "The website you're looking at! Created a project portfolio website using React, combining powerful front-end interactivity and efficient content management.",
