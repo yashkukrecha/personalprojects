@@ -31,7 +31,7 @@ export default function Projects() {
         <div className="column-container" id="grey">
             {clicked && screenWidth > 600 && (<FullScreenComponent setTrigger={setClicked} project={list[index]} desc={desc[index]} index={index}/>)}
             <h2 className="titles"> 
-                <a className="tags" href="https://github.com/yashkukrecha/personalprojects" target="_blank"> Personal Projects 🔗 </a>
+                <a className="tags" href="https://github.com/yashkukrecha/" target="_blank"> Personal Projects 🔗 </a>
             </h2>
             <h4 id="click"> (Click each project to enlarge) </h4>
             <div className="row-container" id="projects"> 

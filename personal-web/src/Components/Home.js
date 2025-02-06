@@ -8,8 +8,9 @@ export default function Home() {
             <div className="column-container">
                 <h1 className="header" id="name"> 🤘 Yash Kukrecha 🤘 </h1>
                 <h3 className="desc" id="bio"> 
-                    Hi, my name is Yash Kukrecha! I'm a freshman at the University of Texas at Austin with an expected graduation date in 2027. 
-                    I'm interested in pursuing machine learning and artificial intelligence, but I also enjoy working on various fullstack projects.
+                    Hi, my name is Yash Kukrecha! I'm a sophomore studying computer science with a minor in statistics and data science
+                    at the University of Texas at Austin with an expected graduation date in 2027. 
+                    I'm interested in systems and core programming, machine learning, and have experience in full-stack development.
                     Feel free to contact me to chat!
                 </h3>
             </div>
