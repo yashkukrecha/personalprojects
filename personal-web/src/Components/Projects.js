@@ -7,10 +7,12 @@ import {useState, useEffect} from 'react';
 
 export default function Projects() {
 
-    const list = ["HoopVision", "Stock Trading Platform", "PINTOS", "BioDex", "Motiv8", "Seedling Volunteer Portal", "Personal Website", "MediGuard", "Brain Tumor Classification"];
-    const desc = ["HoopVision simulates a 5-stage NBA draft using a K-Means algorithm and then provides predictive analysis of the chosen NBA players in the upcoming season using an ExtraTreesRegressor model!",
-                "A multithreaded, socket-based stock trading platform that models real-time stock updates, order management, and client-server communication.",
+    const list = ["Stock Trading Platform", "Network Simulator", "PINTOS", "HoopVision", "High Performance GEMM", "BioDex", "Motiv8", "Seedling Volunteer Portal", "Personal Website", "MediGuard", "Brain Tumor Classification"];
+    const desc = ["A multithreaded, socket-based stock trading platform that models real-time stock updates, order management, and client-server communication.",
+                "An educational simulator that that mimics packet transportation, routing, and other network behaviors, designed to help visualize and test network configurations and behaviors.",
                 "PINTOS is an OS that manages concurrency with priority scheduling, system calls, virtual memory, page replacement mechanisms, a multilevel indexed file system, and synchronization.",
+                "HoopVision simulates a 5-stage NBA draft using a K-Means algorithm and then provides predictive analysis of the chosen NBA players in the upcoming season using an ExtraTreesRegressor model!",
+                "This high performance GEMM (General Matrix Multiplication) program is a C implementation of the GEMM algorithm that utilizes multithreading, SIMD, vectorization, and cache coherence to achieve high performance.",
                 "With BioDex, step outside, snap photos of local wildlife, and instantly turn them into collectible cards that reveal each animal's unique traits, rarity, and ecological significance.",
                 "Motiv8 is a dynamic gym motivation app created to celebrate users' exercise achievements by capturing moments through pictures and relaying it to friends.",
                 "Seedling's volunteer portal streamlines the mentor volunteer hour logging process with reduced bugs, CSV downloadability and a sleek UI to enhance the user experience.",

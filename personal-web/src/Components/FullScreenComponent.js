@@ -8,9 +8,11 @@ export default function FullScreenComponent(props) {
     const pro = props.project.toLowerCase();
 
     const info = [
-        ["React", "Chart.js", "Flask", "SQLAlchemy", "Redis", "GCP", "Chart.js", "Python", "Scikit Learn", "Pandas", "Seaborn", "Matplotlib"],
         ["C++", "Multithreading (Pthread)", "Sockets", "TCP/IP", "Mutex", "Google Test", "CMake", "Valgrind"],
+        ["Rust", "Cargo", "Egui", "Multithreading", "TCP/IP", "Synchronization", "Mutexes"],
         ["C", "Assembly", "Makefile", "GDB"],
+        ["React", "Chart.js", "Flask", "SQLAlchemy", "Redis", "GCP", "Chart.js", "Python", "Scikit Learn", "Pandas", "Seaborn", "Matplotlib"],
+        ["C", "Multithreading (Pragma)", "Makefile", "GDB"],
         ["React Native", "React Navigation", "Expo", "Svelte", "Flask", "Python", "GCP", "OpenAI API", "Google Maps API"], 
         ["React Native", "React Navigation", "React Native Calendar", "Expo", "Node.js", "GCP"], 
         ["React", "Node.js", "JSON-to-CSV", "DataTables", "AWS RDS", "PostgreSQL", "Firebase Authentication"],
@@ -19,9 +21,11 @@ export default function FullScreenComponent(props) {
         ["Python", "TensorFlow", "Pandas", "NumPy"]];
 
     const data = [
-        "July 2024 - August 2024",
         "December 2024",
+        "March 2025 - April 2025",
         "September 2024 - Present",
+        "July 2024 - August 2024",
+        "March 2025",
         "November 2024",
         "January 2024 - May 2024",
         "August 2024 - Present",

@@ -4,8 +4,9 @@ import '../Styles/App.css';
 export default function Projects() {
 
     const list = [{hobby: "Jazz", description: "Jazz trombone has been a passion of mine for the past 4 years. I enjoy the creativity and impromptu spirit of jazz, and I continue gigging with my combo and performing with the UT Austin big band.", image: "jazz"}, 
-                {hobby: "Sports", description: "Basketball and badminton are my favorite sports. Whenever I'm back home from college, I enjoy going to the recreation center and hooping with my friends.", image: "badminton"}, 
-                {hobby: "Exploring Austin", description: "There's so much to explore! I enjoy walking around the city, finding live music, and looking at the holiday decorations in Austin!", image: "austin"}];
+                {hobby: "Sports", description: "Basketball and badminton are my favorite sports. Whenever I'm back home from college, I enjoy going to the recreation center and hooping with my friends.", image: "basketball"}, 
+                {hobby: "Exploring Austin", description: "There's so much to explore! I enjoy walking around the city, finding live music, and looking at the holiday decorations in Austin!", image: "austin"},
+                {hobby: "Baking", description: "I've made apple pie, brownies, chocolate chip cookies, cinnamon rolls, tiramisu, and banana bread so far!", image: "baking"},];
     let index = 0;
 
     function nextHobby() {
@@ -16,7 +17,7 @@ export default function Projects() {
     }
 
     function backHobby() {
-        index = (index + 2) % list.length;
+        index = (index + (list.length - 1)) % list.length;
         document.querySelector("#hobby-name").innerText = list[index].hobby;
         document.querySelector("#hobby-desc").innerText = list[index].description;
         document.querySelector("#image").src = require(`../Icons/${list[index].image}.png`);
