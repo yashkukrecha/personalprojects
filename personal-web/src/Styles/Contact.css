@@ -1,6 +1,6 @@
 #contact-container {
-    width: 90%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 #contact-title {
