@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
-import Home from './Home.js';
-import Skills from './Skills.js';
-import Projects from './Projects.js';
-import Hobbies from './Hobbies.js';
-import Contact from './Contact.js';
+import Home from '../Pages/Home.js';
+import Skills from '../Pages/Skills.js';
+import Projects from '../Pages/Projects.js';
+import Hobbies from '../Pages/Hobbies.js';
+import Contact from '../Pages/Contact.js';
+import Experience from '../Pages/Experience.js';
 import '../Styles/NavBar.css';
 
 export default function NavBar() {
@@ -41,8 +42,9 @@ export default function NavBar() {
                     <li><a href="#section1">About</a></li>
                     <li><a href="#section2">Skills</a></li>
                     <li><a href="#section3">Projects</a></li>
-                    <li><a href="#section4">Hobbies</a></li>
-                    <li><a href="#section5">Contact</a></li>
+                    <li><a href="#section4">Experience</a></li>
+                    <li><a href="#section5">Hobbies</a></li>
+                    <li><a href="#section6">Contact</a></li>
                 </ul>
             </nav>
 
@@ -59,10 +61,14 @@ export default function NavBar() {
             </section>
 
             <section id="section4">
-                <Hobbies/>
+                <Experience/>
             </section>
 
             <section id="section5">
+                <Hobbies/>
+            </section>
+
+            <section id="section6">
                 <Contact/>
             </section>
         </div>
