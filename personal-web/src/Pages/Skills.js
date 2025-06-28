@@ -10,25 +10,24 @@ export default function Skills() {
       "Python",
       "React",
       "JavaScript",
-      "HTML",
-      "CSS",
       "GCP",
-      "Node.js",
       "C++",
       "C",
+      "AWS",
       "Express.js",
-      "React Native",
       "Flask",
       "SQL",
-      "AWS",
+      "React Native",
       "Rust",
+      "Go",
+      ".NET (C#)",
       "R",
       "Assembly",
     ],
     datasets: [
       {
         label: "Months of Experience",
-        data: [38, 25, 17, 17, 17, 17, 14, 14, 10, 10, 10, 8, 6, 6, 6, 3, 2, 2],
+        data: [38, 25, 17, 17, 14, 12, 12, 12, 12, 12, 12, 8, 5, 3, 3, 2, 2],
         backgroundColor: "#BF5700",
       },
     ],
@@ -40,11 +39,11 @@ export default function Skills() {
 
   return (
     <div className="column-container">
-      <h2 className="titles"> Languages/Frameworks </h2>
+      <h2 className="titles"> Skills </h2>
       <div id="bar-chart">
         <BarChart data={data} options={options} />
       </div>
-      <h2 className="titles"> Certifications </h2>
+      <p></p>
       <div className="row-container" id="certifications">
         <div className="column-container" id="oracle">
           <img

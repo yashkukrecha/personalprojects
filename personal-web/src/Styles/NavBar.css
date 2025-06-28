@@ -1,3 +1,4 @@
+/* Base NavBar styles */
 nav {
     background-color: #333;
     padding: 10px;
@@ -13,7 +14,6 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    display: flex;
     align-items: stretch;
     gap: 1%;
 }
@@ -36,31 +36,54 @@ nav a:hover {
 }
 
 #section1 {
-    padding-top:  3%;
+    padding-top: 3%;
 }
 
+/* Responsive NavBar for small screens */
 @media only screen and (max-width: 600px) {
     nav {
         background-color: #333;
-        padding: 0px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 0;
         position: fixed;
         width: 100vw;
         top: 0;
+        overflow-x: auto;
+        white-space: nowrap;
     }
 
     nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px;
+        padding: 0 10px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
         list-style-type: none;
         margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 0%;
+    }
+
+    nav ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    nav ul {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;     /* Firefox */
+    }
+
+    nav li {
+        flex: 0 0 auto;
+        margin-right: 0;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 10px 15px;
+        white-space: nowrap;
     }
 
     #section1 {
-        padding-top: 7%;
+        padding-top: 12%;
     }
 }

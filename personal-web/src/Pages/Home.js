@@ -14,7 +14,7 @@ export default function Home() {
           Hi, my name is Yash Kukrecha! I'm a sophomore studying computer
           science with a minor in statistics and data science at the University
           of Texas at Austin with an expected graduation date in 2027. I'm
-          interested in systems and core programming, machine learning, and have
+          interested in systems, infrastructure, and backend development, and I have
           experience in full-stack development. Feel free to contact me to chat!
         </h3>
       </div>

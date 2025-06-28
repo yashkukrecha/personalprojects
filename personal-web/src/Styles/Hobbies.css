@@ -1,3 +1,15 @@
+.hobby-carousel {
+  max-width: 50%;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.5);
+  padding: 32px 24px 56px 24px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
 #hobby-container {
     width: 40%;
 }
@@ -6,12 +18,25 @@
     margin: 0px;
 }
 
+#hobby {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+#hobby:hover {
+  transform: translateY(-4px);
+}
+
 #image {
     width: 300px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
     margin: 10px;
     padding: 10px;
+    background-color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -21,5 +46,13 @@
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
         margin: 10px;
         padding: 0px;
+    }
+
+    #hobby {
+        flex-direction: column;
+    }
+
+    #hobby-desc {
+        display: none;
     }
 }

@@ -44,7 +44,7 @@ const Hobbies = () => {
   return (
     <div className="column-container" id="grey">
       <h2 className="titles"> Hobbies </h2>
-      <div className="experience-carousel">
+      <div className="hobby-carousel">
         <IndividualHobby {...list[current]} />
         <div className="carousel-arrows">
           <button className="arrow left" onClick={prevHobby}>

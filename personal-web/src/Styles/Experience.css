@@ -3,31 +3,12 @@
   margin: 40px auto;
   background: #fff;
   border-radius: 16px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
   padding: 32px 24px 56px 24px;
   text-align: center;
   position: relative;
   z-index: 1;
-}
-
-.experience-title {
-  font-size: 2rem;
-  margin-bottom: 16px;
-}
-
-.experience-image {
-  width: 120px;
-  height: 120px;
-  object-fit: contain;
-  margin-bottom: 16px;
-  border-radius: 8px;
-  background: #f5f5f5;
-}
-
-.experience-description {
-  font-size: 1.1rem;
-  color: #444;
-  margin-bottom: 24px;
+  background-color: rgb(235, 235, 235);
 }
 
 .carousel-arrows {
@@ -74,4 +55,67 @@
 
 .dot.active {
   background: #333;
+}
+
+.experience {
+  transition: transform 0.2s ease;
+}
+
+.experience:hover {
+  transform: translateY(-4px);
+}
+
+.experience-name {
+    margin: 0px;
+}
+
+.experience-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.experience-info {
+  flex: 1;
+}
+
+.experience-dates {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 0px;
+}
+
+.experience-description {
+  margin-bottom: 0.75rem;
+}
+
+.experience-techstack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.tech-item {
+  background-color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+@media only screen and (max-width: 600px) {
+  .experience-header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .experience-desc {
+    display: none;
+  }
 }
