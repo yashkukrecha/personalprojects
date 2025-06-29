@@ -18,7 +18,7 @@
     color: #BF5700;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     #pfp {
         width: 20vw;
     }

@@ -4,7 +4,7 @@ import Info from "../Components/Info";
 
 export default function Contact() {
 
-    const list = [{method: "Email", link: "ykukrecha@utexas.edu"},
+    const list = [{method: "Email", link: "ykukrecha@gmail.com"},
         {method: "LinkedIn", link: "https://www.linkedin.com/in/yash-kukrecha-676a23279/"},
         {method: "GitHub", link: "https://github.com/yashkukrecha"}];
 

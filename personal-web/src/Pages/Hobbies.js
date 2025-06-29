@@ -47,10 +47,10 @@ const Hobbies = () => {
       <div className="hobby-carousel">
         <IndividualHobby {...list[current]} />
         <div className="carousel-arrows">
-          <button className="arrow left" onClick={prevHobby}>
+          <button className="hobby-arrow left" onClick={prevHobby}>
             &lt;
           </button>
-          <button className="arrow right" onClick={nextHobby}>
+          <button className="hobby-arrow right" onClick={nextHobby}>
             &gt;
           </button>
         </div>

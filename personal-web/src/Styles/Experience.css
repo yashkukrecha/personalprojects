@@ -21,8 +21,8 @@
   gap: 32px;
 }
 
-.arrow {
-  background: #eee;
+.experience-arrow {
+  background: #ffffff;
   border: none;
   border-radius: 50%;
   width: 40px;
@@ -32,7 +32,7 @@
   transition: background 0.2s;
 }
 
-.arrow:hover {
+.experience-arrow:hover {
   background: #d1d1d1;
 }
 
@@ -107,7 +107,7 @@
   color: #333;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .experience-header {
     flex-direction: column;
     justify-content: center;

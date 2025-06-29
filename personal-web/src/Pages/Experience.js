@@ -7,7 +7,7 @@ const experiences = [
     company: "Cox Automotive",
     image: "cox",
     description: "Built internal tools improving vehicle metadata search and APIs.",
-    techStack: ["Go", ".NET", "Flask", "AWS", "Terraform", "NUnit", "Cake", "React"],
+    techStack: ["Go", ".NET", "Flask", "AWS", "Terraform", "NUnit", "Cake", "React", "Docker"],
     dates: "May 2025 - Present",
   },
   {
@@ -21,7 +21,7 @@ const experiences = [
     company: "Seedling",
     image: "seedling volunteer portal",
     description: "Built full-stack portal for volunteer hour tracking automation.",
-    techStack: ["React", "JavaScript", "Node.js", "Express.js", "AWS", "Firebase Authentication"],
+    techStack: ["React", "JavaScript", "Node.js", "Express.js", "MySQL", "AWS", "Firebase Authentication"],
     dates: "August 2024 - Present",
   },
   {
@@ -57,10 +57,10 @@ const Experience = () => {
       <div className="experience-carousel">
         <IndividualExperience {...experiences[current]} />
         <div className="carousel-arrows">
-          <button className="arrow left" onClick={prevSlide}>
+          <button className="experience-arrow left" onClick={prevSlide}>
             &lt;
           </button>
-          <button className="arrow right" onClick={nextSlide}>
+          <button className="experience-arrow right" onClick={nextSlide}>
             &gt;
           </button>
         </div>
