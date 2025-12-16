@@ -39,6 +39,20 @@ export default function Projects() {
       date: "March 2025 - April 2025",
     },
     {
+      title: "RustedKV",
+      description:
+      "RustedKV is a distributed key-value store built in Rust that ensures data replication, fault tolerance, and consistency across multiple nodes using the Raft consensus algorithm.",
+      stack: [
+        "Rust",
+        "Cargo",
+        "Multithreading",
+        "Sockets",
+        "TCP/IP",
+        "Synchronization",
+      ],
+      date: "July 2025 - Present"
+    },
+    {
       title: "PINTOS",
       description:
         "PINTOS is an OS that manages concurrency with priority scheduling, system calls, virtual memory, page replacement mechanisms, a multilevel indexed file system, and synchronization.",

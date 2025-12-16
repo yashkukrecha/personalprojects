@@ -11,7 +11,7 @@ export default function Home() {
           🤘 Yash Kukrecha 🤘{" "}
         </h1>
         <h3 className="desc" id="bio">
-          Hi, my name is Yash Kukrecha! I'm a sophomore studying computer
+          Hi, my name is Yash Kukrecha! I'm a junior studying computer
           science with a minor in statistics and data science at the University
           of Texas at Austin with an expected graduation date in 2027. I'm
           interested in systems, infrastructure, and backend development, and I have
